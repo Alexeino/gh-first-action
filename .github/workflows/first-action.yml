@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest  #Specify the runners such as github runners
     steps:
       - name: Print greeting
-        run: echo "Hello World"
+        run: | 
+          echo "Hello World"
+          echo "This is my first github workflow and it's really cool"
       - name: Print goodby
         run: echo "Done - bye!"
