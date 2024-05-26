@@ -2,7 +2,7 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubuntu-lates  #Specify the runners such as github runners
+    runs-on: ubuntu-latest  #Specify the runners such as github runners
     steps:
       - name: Print greeting
         run: echo "Hello World"
