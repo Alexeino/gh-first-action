@@ -6,5 +6,10 @@ jobs:
     steps: # List of steps
       -  name: Print Greeting
          run: echo "Good Morning World"
+      -  name: Run multiline commands
+         run: |
+              echo "First Command"
+              echo "Second Command"
+              echo "Third Command"
       -  name: Print goodbye
          run: echo "Done Bye"
